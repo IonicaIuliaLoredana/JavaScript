@@ -1,0 +1,48 @@
+
+ #map {
+        height: 50%;
+        width: 100%;
+}
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#description{
+    margin-left:20px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-top {
+    display: inline;
+}
+
+.content{
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#articleTitle{
+    font-weight: 300;
+    font-size: 20px;
+    color: brown;
+    justify-content: center;
+}
